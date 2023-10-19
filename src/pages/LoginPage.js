@@ -30,7 +30,7 @@ function LoginPage() {
             <div className="logo">
                 <span>M</span>
             </div>
-            <h2>Log in to Milanote</h2>
+            <h2>Log in to Nathanote</h2>
             <form onSubmit={handleSubmit}>
                 <input type="email" name="email" placeholder="Email address" />
                 <input type="password" name="password" placeholder="Password" />
