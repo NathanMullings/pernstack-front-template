@@ -1,0 +1,17 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;  /* This makes sure the container takes the full viewport height */
+  }
+  
+  /* You might want to add more styles specific to the DSidebar component in its own CSS file */
+  .DSidebar {
+    height: 100vh;
+    /* Add other styles like width, background-color, etc. as required */
+  }
+  
+  .dashboard-content {
+    flex: 1; /* This makes sure the content div takes the remaining space */
+    padding: 16px; /* Optional padding */
+  }
+  

@@ -1,0 +1,92 @@
+.custom-navbar {
+    background-color: #F5F7F9; /* Light gray background from the image */
+    padding: 20px 40px; /* Some padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none; /* Removes the underline */
+    color: #333; /* Dark text color similar to the image */
+    margin: 0 15px; /* Some spacing between the links */
+    font-size: 18px; /* Slightly larger font size for visibility */
+    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+}
+
+.nav-link:hover {
+    color: #625DFF; /* A shade of blue when hovered, inspired by the "Sign up" button in the image */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #ffffff;
+    height: 60px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-items {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .login-btn, .signup-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .signup-btn {
+    background-color: purple;
+    color: #ffffff;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    border: 1px solid purple;
+    color: purple;
+  }
+  
+  .login-btn:hover, .signup-btn:hover {
+    opacity: 0.9;
+  }
+  /* ... previous styles ... */
+
+.login-btn, .signup-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none; /* Remove default underline from links */
+    display: inline-block; /* To allow padding to take effect */
+  }
+  
+  .signup-btn {
+    background-color: orange;
+    color: #ffffff;
+  }
+  
+  .login-btn {
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+  }
+  
+  .login-btn:hover, .signup-btn:hover {
+    opacity: 0.9;
+  }
+  
